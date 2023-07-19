@@ -1,9 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Summary
+The inventory planner app is designed to add some additional mechanics to how your character carries their stuff, including different slots for loot, weight characteristics, and item sizes. 
 
-Things you may want to cover:
+Sections to be Filled in
 
 * Ruby version
 
