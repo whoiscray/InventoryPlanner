@@ -1,0 +1,10 @@
+<h1>InventoryViews#index</h1>
+
+<ul>
+	<% @inventories.each do |inventory| %>
+		<li>
+			<%= inventory.name %>
+			<%= inventory.reference %>
+		</li>
+	<% end %>
+</ul>
