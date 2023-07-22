@@ -1,0 +1,11 @@
+<h1>Inventories#index</h1>
+
+<ul>
+	<% @inventories.each do |inventory| %>
+		<li>
+			<%= link_to inventory.name, inventory %>
+		</li>
+	<% end %>
+</ul>
+
+<%= link_to "New Inventory", new_inventory_path %>

@@ -1,0 +1,23 @@
+<h1>New Inventory</h1>
+
+<%= form_with model: @inventory do |form| %>
+	<div>
+		<%= form.label :name %><br>
+		<%= form.text_field :name %><br>
+		<% @inventory.errors.full_messages_for(:name).each do |message| %>
+	      <div><%= message %></div>
+	    <% end %>
+	</div>
+
+	<div>
+		<%= form.label :reference %><br>
+		<%= form.text_field :reference %><br>
+		<% @inventory.errors.full_messages_for(:reference).each do |message| %>
+	      <div><%= message %></div>
+	    <% end %>		
+	</div>
+
+	<div>
+		<%= form.submit %><br>		
+	</div>
+<% end %>
